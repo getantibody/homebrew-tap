@@ -1,8 +1,9 @@
 class Antibody < Formula
   desc "Faster and simpler version of antigen written in Golang"
   homepage "http://github.com/caarlos0/antibody"
-  url "https://github.com/caarlos0/antibody/releases/download/v0.3.0/antibody_darwin_amd64.tar.gz"
-  sha256 "7fe438221348ba393caefe8a2ddad3108271d745761c9c505feaa6d7a5f72a53"
+  url "https://github.com/caarlos0/antibody/releases/download/v0.3.1/antibody_darwin_amd64.tar.gz"
+  sha256 "f1e20bce8a41dabf87f3fe2f16ea01ecb4be36fa92346636aae042b6052ed0d3"
+  version "0.3.1"
   head "http://github.com/caarlos0/antibody.git"
 
   def install
