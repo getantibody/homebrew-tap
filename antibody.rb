@@ -2,7 +2,7 @@ class Antibody < Formula
   desc "Faster and simpler antigen written in Golang"
   homepage "http://antibody.elasticbeanstalk.com"
   url "http://antibody.elasticbeanstalk.com/latest/#{`uname -s`}/#{`uname -m`}"
-  version :latest
+  version "latest"
   sha256 :no_check
   head "http://github.com/caarlos0/antibody.git"
 
