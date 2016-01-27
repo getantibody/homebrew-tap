@@ -1,9 +1,9 @@
 # homebrew-antibody
 
-Formulae for https://github.com/caarlos0/antibody
+Formulae for https://github.com/getantibody/antibody
 
 ```sh
-$ brew tap caarlos0/homebrew-antibody
+$ brew tap getantibody/homebrew-antibody
 $ brew install antibody
 ```
 
