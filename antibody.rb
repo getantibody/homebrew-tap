@@ -9,6 +9,10 @@ class Antibody < Formula
     share.install "bin"
     share.install "antibody.zsh"
   end
+  
+  def caveats
+    "To start using antibody, you need to add `source $(brew --prefix)/share/antibody.zsh` to your `~/.zshrc`."
+  end
 
   test do
     (testpath/".zshrc").write "source $(brew --prefix)/share/antibody.zsh"
