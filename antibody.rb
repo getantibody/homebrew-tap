@@ -6,7 +6,7 @@ class Antibody < Formula
   head "http://github.com/getantibody/antibody.git"
 
   def install
-    share.install "antibody"
+    bin.install "antibody"
   end
   
   def caveats
