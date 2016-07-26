@@ -1,8 +1,8 @@
 class Antibody < Formula
   desc "Faster and simpler antigen written in Golang"
   homepage "http://antibody.elasticbeanstalk.com"
-  url "https://github.com/getantibody/antibody/releases/download/v0.7.1/antibody_#{`uname -s`.gsub(/\n/, '')}_#{`uname -m`.gsub(/\n/, '')}.tar.gz"
-  version "0.7.1"
+  url "https://github.com/getantibody/antibody/releases/download/v0.7.2/antibody_#{`uname -s`.gsub(/\n/, '')}_#{`uname -m`.gsub(/\n/, '')}.tar.gz"
+  version "0.7.2"
   head "http://github.com/getantibody/antibody.git"
 
   def install
