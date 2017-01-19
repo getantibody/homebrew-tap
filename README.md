@@ -1,8 +1,7 @@
-# homebrew-antibody
+# homebrew-tap
 
 Formulae for https://github.com/getantibody/antibody
 
 ```console
-$ brew tap getantibody/homebrew-antibody
-$ brew install antibody
+$ brew install getantibody/tap/antibody
 ```
