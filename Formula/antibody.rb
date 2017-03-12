@@ -1,9 +1,9 @@
 class Antibody < Formula
   desc "A faster and simpler antigen written in Golang."
   homepage "http://getantibody.github.io"
-  url "https://github.com/getantibody/antibody/releases/download/v2.3.5/antibody_Darwin_x86_64.tar.gz"
-  version "2.3.5"
-  sha256 "a40349c192605411fae22a3f6ae4efc87a215c1bfec7c18cb3362fdc24936920"
+  url "https://github.com/getantibody/antibody/releases/download/v2.3.6/antibody_Darwin_x86_64.tar.gz"
+  version "2.3.6"
+  sha256 "bc579252bafc4ccec8a40974a973182083dfb297463f0102c5842b0193b5ac0b"
   
   depends_on "git"
 
