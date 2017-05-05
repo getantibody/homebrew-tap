@@ -3,7 +3,7 @@ class Antibody < Formula
   homepage "http://getantibody.github.io"
   url "https://github.com/getantibody/antibody/releases/download/v3.0.1/antibody_Darwin_x86_64.tar.gz"
   version "3.0.1"
-  sha256 "d033fb3f740ed1fefc83c1c2bf95c2a366852d061bfd3d2f68bd61883786caee"
+  sha256 "3f5de8e6bbffdaffa06da148120028a983e94f820ae0e92c8b70c77d1b887dd4"
   
   depends_on "git"
 
