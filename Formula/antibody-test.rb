@@ -1,4 +1,4 @@
-class Antibody < Formula
+class AntibodyTest < Formula
   desc "The fastest shell plugin manager"
   homepage "http://getantibody.github.io"
   version "4.1.0"
