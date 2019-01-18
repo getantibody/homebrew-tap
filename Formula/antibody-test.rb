@@ -11,7 +11,7 @@ class AntibodyTest < Formula
     sha256 "c53e5352df6ed631d7f4ec7ce90bc66754fc9ed20531d8f97e675e5ca53bda80"
   end
   
-  depends_on "git"
+  # depends_on "git"
 
   def install
     bin.install "antibody"
