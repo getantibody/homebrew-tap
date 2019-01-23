@@ -1,6 +1,6 @@
 class Antibody < Formula
   desc "The fastest shell plugin manager"
-  homepage "http://getantibody.github.io"
+  homepage "https://getantibody.github.io"
   version "4.1.0"
   revision 1
 
