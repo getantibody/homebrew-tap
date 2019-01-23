@@ -2,6 +2,7 @@ class Antibody < Formula
   desc "The fastest shell plugin manager"
   homepage "http://getantibody.github.io"
   version "4.1.0"
+  revision 1
 
   if OS.mac?
     url "https://github.com/getantibody/antibody/releases/download/v4.1.0/antibody_Darwin_x86_64.tar.gz"
