@@ -2,9 +2,15 @@
 class Antibody < Formula
   desc "The fastest shell plugin manager"
   homepage "http://getantibody.github.io"
-  url "https://github.com/getantibody/antibody/releases/download/v4.1.1/antibody_Darwin_x86_64.tar.gz"
-  version "4.1.1"
-  sha256 "b5eed7230ff337289772463b054b9bc13d2dafaa8fb4a1eb9629656f84844016"
+  version "4.1.2"
+
+  if OS.mac?
+    url "https://github.com/getantibody/antibody/releases/download/v4.1.2/antibody_Darwin_x86_64.tar.gz"
+    sha256 "d84cd6776177c2bc1581d3a0fc88c6c156a50eebda8be19739d6a7aa2793ba35"
+  elsif OS.linux?
+    url "https://github.com/getantibody/antibody/releases/download/v4.1.2/antibody_Linux_x86_64.tar.gz"
+    sha256 "1653956d82dfc4a57a417205dbea65074a012d1ba038aca6f5f34db8af993b78"
+  end
   
   depends_on "git"
 
