@@ -2,24 +2,24 @@
 class Antibody < Formula
   desc "The fastest shell plugin manager"
   homepage "http://getantibody.github.io"
-  version "6.0.0"
+  version "6.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/getantibody/antibody/releases/download/v6.0.0/antibody_Darwin_x86_64.tar.gz"
-    sha256 "220b81bcbe5173176b152c1c453267960c69b4d661963a53e840712734777383"
+    url "https://github.com/getantibody/antibody/releases/download/v6.0.1/antibody_Darwin_x86_64.tar.gz"
+    sha256 "c03ad957b9f867a1b0d873c048660a2d2e6469125c2b0d4c6257b767b15a6a9a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/getantibody/antibody/releases/download/v6.0.0/antibody_Linux_x86_64.tar.gz"
-      sha256 "660182f53d53a15fd7d2df4326b820af3965bf489cf6a283fc31332a15e5eac7"
+      url "https://github.com/getantibody/antibody/releases/download/v6.0.1/antibody_Linux_x86_64.tar.gz"
+      sha256 "4a4dbe96aaa098b40488087a51cd8ee29ded8e0f4400520126fe8616c48ac0c5"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/getantibody/antibody/releases/download/v6.0.0/antibody_Linux_arm64.tar.gz"
-        sha256 "a2e96d8a449e82f1f8a9a475b3bb6635d8e5483253b85d6d1fcab4d2b7b17eaa"
+        url "https://github.com/getantibody/antibody/releases/download/v6.0.1/antibody_Linux_arm64.tar.gz"
+        sha256 "9a3824d02598bfada2627c5840f0bd03653aad17f71ceff3c5341c2bff65b1f2"
       else
-        url "https://github.com/getantibody/antibody/releases/download/v6.0.0/antibody_Linux_armv6.tar.gz"
-        sha256 "332461bac465f8cde635cb5ffbfe18b7a45413ecd0191e7b228f122268c8a427"
+        url "https://github.com/getantibody/antibody/releases/download/v6.0.1/antibody_Linux_armv6.tar.gz"
+        sha256 "96e9ca5e184cb6647ef121c9339644d58182d5eed4e74762b73d801cc19ecd8a"
       end
     end
   end
